@@ -31,7 +31,7 @@ streamlit_app.py   the UI — your only entry point day-to-day
 
 **1. Organize your papers** (if you haven't already):
 ```
-papers/
+<!-- papers/
   hsi_classification/
     paper1.pdf
     paper2.pdf
@@ -39,7 +39,17 @@ papers/
     paper3.pdf
   hsi_generation/
   hsi_vlm/
-  hsi_foundation_models/
+  hsi_foundation_models/ -->
+
+  topic-1/
+    paper1.pdf
+    paper2.pdf
+  topic-2/
+    paper3.pdf
+  topic-3/
+  topic-4/
+  topic-5/
+
 ```
 Folder names become the subdomain filter in the UI — name them however
 you like, there's no fixed taxonomy to configure.
